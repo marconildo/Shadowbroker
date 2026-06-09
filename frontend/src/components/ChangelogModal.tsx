@@ -106,49 +106,6 @@ const CONTRIBUTORS = [
     name: 'OSIRIS (simplifaisoul/osiris)',
     desc: 'MIT-licensed recon stack — adapted for ShadowBroker proxy model (see backend/third_party/osiris/NOTICE.md)',
   },
-  {
-    name: '@Alienmajik',
-    desc: 'Raspberry Pi 5 support — ARM64 packaging, headless deployment notes, and runtime tuning for Pi-class hardware',
-  },
-  {
-    name: '@wa1id',
-    desc: 'CCTV ingestion fix — fresh SQLite connections per ingest, persistent DB path, startup hydration, cluster clickability',
-    pr: '#92',
-  },
-  {
-    name: '@AlborzNazari',
-    desc: 'Spain DGT + Madrid CCTV sources and STIX 2.1 threat intelligence export endpoint',
-    pr: '#91',
-  },
-  {
-    name: '@adust09',
-    desc: 'Power plants layer, East Asia intel coverage (JSDF bases, ICAO enrichment, Taiwan news sources, military classification)',
-    pr: '#71, #72, #76, #77, #87',
-  },
-  {
-    name: '@Xpirix',
-    desc: 'LocateBar style and interaction improvements',
-    pr: '#78',
-  },
-  {
-    name: '@imqdcr',
-    desc: 'Ship toggle split into 4 categories + stable MMSI/callsign entity IDs for map markers',
-    pr: '#52',
-  },
-  {
-    name: '@csysp',
-    desc: 'Dismissible threat alerts + stable entity IDs for GDELT & News popups + UI declutter',
-    pr: '#48, #61, #63',
-  },
-  {
-    name: '@suranyami',
-    desc: 'Parallel multi-arch Docker builds (11min → 3min) + runtime BACKEND_URL fix',
-    pr: '#35, #44',
-  },
-  {
-    name: '@chr0n1x',
-    desc: 'Kubernetes / Helm chart architecture for high-availability deployments',
-  },
 ];
 
 export function useChangelog() {
